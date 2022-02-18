@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <title>NFT Practics Project</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-flex">
+                <a class="logo-main" href="#">Hello<span class="logo-blue">!</span>Bandits</a>
+
+                <nav class="header-nav">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__item"><a class="header-nav__link" href="#"> How we work</a></li>
+
+                        <li class="header-nav__item"><a class="header-nav__link" href="#"> About Us</a></li>
+
+                        <li class="header-nav__item"><a class="header-nav__link" href="#"> Examples</a></li>
+
+                        <li class="header-nav__item"><a class="header-nav__link" href="#"> Contact Us</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-contacts">
+                    <a class="header-contacts__link" href="#">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle id="telegram-background" cx="18" cy="18" r="17.5" stroke="#4A70F4" />
+                            <path id="telegram" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M23.3332 24.1876C23.3096 24.4417 23.2105 24.6829 23.0485 24.8802C22.8866 25.0774 22.6693 25.2216 22.4247 25.2941C22.18 25.3667 21.9192 25.3643 21.6759 25.2873C21.4327 25.2102 21.2179 25.0621 21.0596 24.862C19.6673 23.7558 17.496 22.1618 17.496 22.1618C17.496 22.1618 15.9248 24.9297 15.6438 25.2133C15.551 25.2913 15.4429 25.349 15.3265 25.3829C15.2101 25.4168 15.0879 25.426 14.9678 25.4101C14.8476 25.3941 14.732 25.3532 14.6285 25.2901C14.525 25.2269 14.4358 25.1429 14.3665 25.0434C14.3522 24.9998 14.3352 24.9571 14.3155 24.9156L15.1968 20.5064L21.4812 14.3332L12.9104 19.224C12.9104 19.224 9.04018 18.0667 8.4654 17.8406C8.31712 17.7597 8.19485 17.6383 8.1127 17.4907C8.03056 17.343 7.99202 17.1752 8.00137 17.0065C8.01073 16.8378 8.06759 16.6752 8.16556 16.5375C8.26353 16.3999 8.39857 16.2928 8.55489 16.2287C9.37237 15.8123 23.793 10.3046 24.2784 10.1628C24.7638 10.021 26.0411 9.65186 25.9006 10.8947C25.7601 12.1375 23.4737 23.5042 23.3332 24.1876Z"
+                                fill="#2AA1DA" />
+                        </svg>
+                    </a>
+
+                    <a class="header-contacts__link" href="#">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle id="whatsapp-background" cx="18" cy="18" r="17.5" stroke="#4A70F4" />
+                            <path id="whatsapp" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M18.0168 27C16.3168 26.9957 14.6531 26.5078 13.2199 25.5934L9 27L10.4067 22.7789C9.34691 21.0877 8.87928 19.0922 9.07749 17.1062C9.2757 15.1202 10.1285 13.2565 11.5016 11.8081C12.8748 10.3597 14.6903 9.40876 16.6628 9.10492C18.6354 8.80108 20.6531 9.16152 22.3985 10.1296C24.1438 11.0977 25.5178 12.6184 26.3044 14.4527C27.0911 16.2869 27.2457 18.3307 26.744 20.2625C26.2423 22.1942 25.1127 23.9043 23.5329 25.124C21.9531 26.3436 20.0127 27.0036 18.0168 27V27ZM19.9765 19.3489C20.5763 19.5429 21.1864 19.7035 21.8039 19.8298C21.8689 19.8394 21.9312 19.8619 21.9872 19.8961C22.0433 19.9304 22.0919 19.9755 22.13 20.029C22.1682 20.0824 22.1952 20.143 22.2094 20.2071C22.2236 20.2712 22.2247 20.3375 22.2127 20.4021V20.7483C22.2186 20.8719 22.1957 20.9952 22.1456 21.1083C22.0955 21.2214 22.0196 21.3212 21.9241 21.3999C21.6278 21.7007 21.277 21.9423 20.8902 22.1117C20.3197 22.1795 19.7413 22.1291 19.1911 21.9637C18.6409 21.7982 18.1307 21.5211 17.6922 21.1498C17.1269 20.7706 16.5996 20.3379 16.1173 19.8575C15.6374 19.3728 15.2027 18.8451 14.8188 18.2813C14.4505 17.8426 14.1762 17.3329 14.0128 16.7838C13.8495 16.2348 13.8006 15.6581 13.8692 15.0894C14.0388 14.7048 14.2794 14.3556 14.5784 14.0602C14.6546 13.9628 14.7538 13.8858 14.8671 13.8363C14.9804 13.7867 15.1044 13.7662 15.2277 13.7765H15.5762C15.7077 13.7583 15.8412 13.793 15.9471 13.873C16.053 13.953 16.1228 14.0719 16.1413 14.2033C16.3216 14.915 16.4539 15.4296 16.6342 16.0067C16.7064 16.2471 16.6223 16.3048 16.4299 16.4491C16.3097 16.5417 16.2135 16.609 16.1173 16.6799C16.0616 16.7042 16.0115 16.7399 15.9704 16.7848C15.9294 16.8297 15.8981 16.8827 15.8789 16.9404C15.8596 16.9981 15.8526 17.0592 15.8585 17.1198C15.8643 17.1803 15.8829 17.2389 15.9129 17.2918C16.2199 17.8828 16.6129 18.4249 17.0791 18.9005C17.554 19.3675 18.0973 19.7595 18.6902 20.063C18.7432 20.0925 18.8017 20.1107 18.8622 20.1164C18.9226 20.122 18.9836 20.115 19.0412 20.096C19.0988 20.0769 19.152 20.046 19.1971 20.0054C19.2422 19.9648 19.2782 19.9152 19.3032 19.8598C19.3753 19.7624 19.4355 19.6711 19.5317 19.546C19.5467 19.5028 19.5702 19.4631 19.6009 19.4292C19.6317 19.3952 19.6689 19.3679 19.7104 19.3487C19.752 19.3295 19.7969 19.3189 19.8427 19.3175C19.8884 19.3161 19.9339 19.3239 19.9765 19.3405V19.3405V19.3489Z"
+                                fill="#65BC54" />
+                        </svg>
+                    </a>
+                    <a class="header-contacts__button" href="">Get Started</a>
+                </div>
+            </div>
+
+            <div class="about-company">
+                <section class="about-company__section-left">
+                    <h1 class="about-company__title">We create <span class="about-company__title-purple">amazing</span>
+                        websites for your <span class="about-company__title-purple-bottom">NFT projects</span></h1>
+                    <p class="about-company__description">Our team would like to help you create an incredible website
+                        in no time and take your NFT project
+                        to the next level.</p>
+                    <a class="contact-button contact-button_about-company" href="#">Get Started</a>
+                    <img class="about-company__arrow-icon" src="img/header-arrow.svg" alt="">
+                </section>
+
+                <div class="about-company__section-right">
+
+                    <img class="about-company__img" src="img/about-company__section-right-gif.gif" alt="img">
+                    <picture>
+                        <source media="(max-width: 690px)" srcset="img/about-company__icon-adaptive.svg">
+                        <img class="about-company__icon" src="img/about-company__icon.svg" alt="icon">
+                    </picture>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="info">
+            <div class="container">
+                <div class="info-fix">
+                    <p class="info-fix__subtitle">HOW WE WORK</p>
+                    <h2 class="info-fix__title">Get quality website for your NFT project in a few clicks</h2>
+                    <p class="info-fix__description">Spend less time on making ideas, finding freelancers and managing
+                        the
+                        content creation process.</p>
+                </div>
+                <div class="info__flex-container">
+                    <ul class="info-list">
+                        <li class="info-list__item">
+                            <article class="info-list__article">
+                                <div class="article-container">
+                                    <p class="info-list__step">STEP 1</p>
+                                    <img class="info-list__img" src="img/info-list__img-1.png" alt="Step img">
+                                    <h3 class="info-list__title">Submit a request</h3>
+                                    <p class="info-list__subtitle">Provide all required information in the application
+                                        form.
+                                        Or you can contact us
+                                        directly via Whatsapp or Telegram.</p>
+                                    <a class="info-list__link" href="#">Get Started &nbsp; &nbsp; <svg width="15"
+                                            height="16" viewBox="0 0 15 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path id="info-arrow"
+                                                d="M14.7071 8.70711C15.0976 8.31658 15.0976 7.68342 14.7071 7.29289L8.34314 0.928931C7.95262 0.538407 7.31946 0.538407 6.92893 0.928932C6.53841 1.31946 6.53841 1.95262 6.92893 2.34315L12.5858 8L6.92893 13.6569C6.53841 14.0474 6.53841 14.6805 6.92893 15.0711C7.31946 15.4616 7.95262 15.4616 8.34315 15.0711L14.7071 8.70711ZM8.74228e-08 9L14 9L14 7L-8.74228e-08 7L8.74228e-08 9Z"
+                                                fill="#4A70F4" />
+                                        </svg></a>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="info-list__item">
+                            <article class="info-list__article">
+                                <div class="article-container">
+                                    <p class="info-list__step info-list__step_color_blue">STEP 2</p>
+                                    <img class="info-list__img" src="img/info-list__img-2.png" alt="Step img">
+                                    <h3 class="info-list__title">Discuss all details</h3>
+                                    <p class="info-list__subtitle">We contact you and clarify all the necessary details,
+                                        discuss the deadline and budget. Approve cooperation.</p>
+                                    <a class="info-list__link" href="#">Get Started &nbsp; &nbsp; <svg width="15"
+                                            height="16" viewBox="0 0 15 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path id="info-arrow-2"
+                                                d="M14.7071 8.70711C15.0976 8.31658 15.0976 7.68342 14.7071 7.29289L8.34314 0.928931C7.95262 0.538407 7.31946 0.538407 6.92893 0.928932C6.53841 1.31946 6.53841 1.95262 6.92893 2.34315L12.5858 8L6.92893 13.6569C6.53841 14.0474 6.53841 14.6805 6.92893 15.0711C7.31946 15.4616 7.95262 15.4616 8.34315 15.0711L14.7071 8.70711ZM8.74228e-08 9L14 9L14 7L-8.74228e-08 7L8.74228e-08 9Z"
+                                                fill="#4A70F4" />
+                                        </svg></a>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="info-list__item">
+                            <article class="info-list__article">
+                                <div class="article-container">
+                                    <p class="info-list__step info-list__step_color_green">STEP 3</p>
+                                    <img class="info-list__img" src="img/info-list__img-3.png" alt="Step img">
+                                    <h3 class="info-list__title">Work process</h3>
+                                    <p class="info-list__subtitle">We get to work! We do the work according to your
+                                        wishes and terms of reference. We show you all the intermediate steps.</p>
+                                    <a class="info-list__link" href="#">Get Started &nbsp; &nbsp; <svg width="15"
+                                            height="16" viewBox="0 0 15 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path id="info-arrow-3"
+                                                d="M14.7071 8.70711C15.0976 8.31658 15.0976 7.68342 14.7071 7.29289L8.34314 0.928931C7.95262 0.538407 7.31946 0.538407 6.92893 0.928932C6.53841 1.31946 6.53841 1.95262 6.92893 2.34315L12.5858 8L6.92893 13.6569C6.53841 14.0474 6.53841 14.6805 6.92893 15.0711C7.31946 15.4616 7.95262 15.4616 8.34315 15.0711L14.7071 8.70711ZM8.74228e-08 9L14 9L14 7L-8.74228e-08 7L8.74228e-08 9Z"
+                                                fill="#4A70F4" />
+                                        </svg></a>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="info-list__item">
+                            <article class="info-list__article">
+                                <div class="article-container">
+                                    <p class="info-list__step info-list__step_color_lightblue">STEP 4</p>
+                                    <img class="info-list__img" src="img/info-list__img-4.png" alt="Step img">
+                                    <h3 class="info-list__title">Recieve your website</h3>
+                                    <p class="info-list__subtitle info-list__subtitle_last"> After approval, you get an
+                                        incrediable website for
+                                        your NFT project! </p>
+                                    <a class="info-list__link" href="#">Get Started &nbsp; &nbsp; <svg width="15"
+                                            height="16" viewBox="0 0 15 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path id="info-arrow-4"
+                                                d="M14.7071 8.70711C15.0976 8.31658 15.0976 7.68342 14.7071 7.29289L8.34314 0.928931C7.95262 0.538407 7.31946 0.538407 6.92893 0.928932C6.53841 1.31946 6.53841 1.95262 6.92893 2.34315L12.5858 8L6.92893 13.6569C6.53841 14.0474 6.53841 14.6805 6.92893 15.0711C7.31946 15.4616 7.95262 15.4616 8.34315 15.0711L14.7071 8.70711ZM8.74228e-08 9L14 9L14 7L-8.74228e-08 7L8.74228e-08 9Z"
+                                                fill="#4A70F4" />
+                                        </svg></a>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+
+
+
+
+
+                    <div class="swiper examples__swiper-adaptive">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide info-list__item">
+                                <article class="info-list__article">
+                                    <div class="article-container">
+                                        <p class="info-list__step">STEP 1</p>
+                                        <img class="info-list__img" src="img/info-list__img-1.png" alt="Step img">
+                                        <h3 class="info-list__title">Submit a request</h3>
+                                        <p class="info-list__subtitle">Provide all required information in the
+                                            application
+                                            form.
+                                            Or you can contact us
+                                            directly via Whatsapp or Telegram.</p>
+                                        <a class="info-list__link" href="#">Get Started &nbsp; &nbsp; <svg width="15"
+                                                height="16" viewBox="0 0 15 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path id="info-arrow-adaptive"
+                                                    d="M14.7071 8.70711C15.0976 8.31658 15.0976 7.68342 14.7071 7.29289L8.34314 0.928931C7.95262 0.538407 7.31946 0.538407 6.92893 0.928932C6.53841 1.31946 6.53841 1.95262 6.92893 2.34315L12.5858 8L6.92893 13.6569C6.53841 14.0474 6.53841 14.6805 6.92893 15.0711C7.31946 15.4616 7.95262 15.4616 8.34315 15.0711L14.7071 8.70711ZM8.74228e-08 9L14 9L14 7L-8.74228e-08 7L8.74228e-08 9Z"
+                                                    fill="#4A70F4" />
+                                            </svg></a>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="swiper-slide info-list__item">
+                                <article class="info-list__article">
+                                    <div class="article-container">
+                                        <p class="info-list__step info-list__step_color_blue">STEP 2</p>
+                                        <img class="info-list__img" src="img/info-list__img-2.png" alt="Step img">
+                                        <h3 class="info-list__title">Discuss all details</h3>
+                                        <p class="info-list__subtitle">We contact you and clarify all the necessary
+                                            details,
+                                            discuss the deadline and budget. Approve cooperation.</p>
+                                        <a class="info-list__link" href="#">Get Started &nbsp; &nbsp; <svg width="15"
+                                                height="16" viewBox="0 0 15 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path id="info-arrow-adaptive-2"
+                                                    d="M14.7071 8.70711C15.0976 8.31658 15.0976 7.68342 14.7071 7.29289L8.34314 0.928931C7.95262 0.538407 7.31946 0.538407 6.92893 0.928932C6.53841 1.31946 6.53841 1.95262 6.92893 2.34315L12.5858 8L6.92893 13.6569C6.53841 14.0474 6.53841 14.6805 6.92893 15.0711C7.31946 15.4616 7.95262 15.4616 8.34315 15.0711L14.7071 8.70711ZM8.74228e-08 9L14 9L14 7L-8.74228e-08 7L8.74228e-08 9Z"
+                                                    fill="#4A70F4" />
+                                            </svg></a>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="swiper-slide info-list__item">
+                                <article class="info-list__article">
+                                    <div class="article-container">
+                                        <p class="info-list__step info-list__step_color_green">STEP 3</p>
+                                        <img class="info-list__img" src="img/info-list__img-3.png" alt="Step img">
+                                        <h3 class="info-list__title">Work process</h3>
+                                        <p class="info-list__subtitle">We get to work! We do the work according to your
+                                            wishes and terms of reference. We show you all the intermediate steps.</p>
+                                        <a class="info-list__link" href="#">Get Started &nbsp; &nbsp; <svg width="15"
+                                                height="16" viewBox="0 0 15 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path id="info-arrow-adaptive-3"
+                                                    d="M14.7071 8.70711C15.0976 8.31658 15.0976 7.68342 14.7071 7.29289L8.34314 0.928931C7.95262 0.538407 7.31946 0.538407 6.92893 0.928932C6.53841 1.31946 6.53841 1.95262 6.92893 2.34315L12.5858 8L6.92893 13.6569C6.53841 14.0474 6.53841 14.6805 6.92893 15.0711C7.31946 15.4616 7.95262 15.4616 8.34315 15.0711L14.7071 8.70711ZM8.74228e-08 9L14 9L14 7L-8.74228e-08 7L8.74228e-08 9Z"
+                                                    fill="#4A70F4" />
+                                            </svg></a>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="swiper-slide info-list__item">
+                                <article class="info-list__article">
+                                    <div class="article-container">
+                                        <p class="info-list__step info-list__step_color_lightblue">STEP 4</p>
+                                        <img class="info-list__img" src="img/info-list__img-4.png" alt="Step img">
+                                        <h3 class="info-list__title">Recieve your website</h3>
+                                        <p class="info-list__subtitle info-list__subtitle_last"> After approval, you get
+                                            an
+                                            incrediable website for
+                                            your NFT project! </p>
+                                        <a class="info-list__link" href="#">Get Started &nbsp; &nbsp; <svg width="15"
+                                                height="16" viewBox="0 0 15 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path id="info-arrow-adaptive-4"
+                                                    d="M14.7071 8.70711C15.0976 8.31658 15.0976 7.68342 14.7071 7.29289L8.34314 0.928931C7.95262 0.538407 7.31946 0.538407 6.92893 0.928932C6.53841 1.31946 6.53841 1.95262 6.92893 2.34315L12.5858 8L6.92893 13.6569C6.53841 14.0474 6.53841 14.6805 6.92893 15.0711C7.31946 15.4616 7.95262 15.4616 8.34315 15.0711L14.7071 8.70711ZM8.74228e-08 9L14 9L14 7L-8.74228e-08 7L8.74228e-08 9Z"
+                                                    fill="#4A70F4" />
+                                            </svg></a>
+                                    </div>
+                                </article>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__flex-container">
+                    <div class="about-left-content">
+                        <p class="about-left-content__subtitle">
+                            About Us
+                        </p>
+                        <h2 class="about-left-content__title">Young and ambitious team!</h2>
+
+                        <p class="about-left-content__description about-left-content__description_one">The NFT world is
+                            rapidly growing and gaining
+                            momentum.
+                            Now it
+                            is important to stand out among the many projects. The site is one of the indicators of the
+                            project,
+                            which shows serious intentions and potential.</p>
+
+                        <p class="about-left-content__description about-left-content__description_two">We treat each
+                            project individually, take into account
+                            all
+                            your wishes and create original NFT websites with beautiful design and clear interface.</p>
+
+                        <p class="about-left-content__description about-left-content__description_three">It is important
+                            for us that your project will be
+                            successful
+                            and we will help you with this!</p>
+
+                        <a class="contact-button" href="">Get Started</a>
+                    </div>
+
+                    <div class="about-right-content">
+                        <div class="about-right-content__container">
+                            <img class="about-right-content__img" src="img/about-figm.svg" alt="Decoration icon">
+                            <img class="about-right-content__img about-right-content__img_middle"
+                                src="img/about-code.png" alt="Decoration icon">
+                            <img class="about-right-content__img" src="img/about-magic.png" alt="Decoration icon">
+                        </div>
+                        <picture>
+                            <source media="(max-width: 375px)" srcset="img/about-right-content__img-main-adaptive.png">
+                            <source media="(max-width: 1200px)" srcset="img/about-right-content__img-main-adaptive.png">
+                            <img class="about-right-content__img-main" src="img/about-right-content__img-main.png"
+                                alt="">
+                        </picture>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="examples">
+            <div class="container">
+                <div class="examples__info-container">
+                    <p class="examples__subtitle">Examples</p>
+                    <h2 class="examples__title">We have already completed dozens of works</h2>
+                    <p class="examples__description">Here you can look at <span
+                            class="examples-description__purple">examples</span> of NFT websites, your future project
+                        can
+                        be
+                        on the same level.</p>
+                </div>
+
+                <ul class="examples-list">
+                    <li class="examples-list__item"><a href=""><img class="examples-list__img"
+                                src="img/examples__img-1.png" alt="Project img"> </a></li>
+                    <li class="examples-list__item"><a href=""><img class="examples-list__img"
+                                src="img/examples__img-2.png" alt="Project img"> </a></li>
+                    <li class="examples-list__item"><a href=""><img class="examples-list__img"
+                                src="img/examples__img-3.png" alt="Project img"> </a></li>
+                    <li class="examples-list__item"><a href=""><img class="examples-list__img"
+                                src="img/examples__img-4.png" alt="Project img"> </a></li>
+                    <li class="examples-list__item"><a href=""><img class="examples-list__img"
+                                src="img/examples__img-5.png" alt="Project img"> </a></li>
+                    <li class="examples-list__item"><a href=""><img class="examples-list__img"
+                                src="img/examples__img-6.png" alt="Project img"> </a></li>
+                    <li class="examples-list__item"><a href=""><img class="examples-list__img"
+                                src="img/examples__img-7.png" alt="Project img"> </a></li>
+                    <li class="examples-list__item"><a href=""><img class="examples-list__img"
+                                src="img/examples__img-8.png" alt="Project img"> </a></li>
+                    <li class="examples-list__item"><a href=""><img class="examples-list__img"
+                                src="img/examples__img-9.png" alt="Project img"> </a></li>
+                </ul>
+
+                <div class="swiper examples__swiper-adaptive">
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><a href=""><img class="examples-list__img"
+                                    src="img/examples__img-1.png" alt="Project img"> </a></div>
+                        <div class="swiper-slide"><a href=""><img class="examples-list__img"
+                                    src="img/examples__img-2.png" alt="Project img"> </a></div>
+                        <div class="swiper-slide"><a href=""><img class="examples-list__img"
+                                    src="img/examples__img-3.png" alt="Project img"> </a></div>
+                        <div class="swiper-slide"><a href=""><img class="examples-list__img"
+                                    src="img/examples__img-4.png" alt="Project img"> </a></div>
+                        <div class="swiper-slide"><a href=""><img class="examples-list__img"
+                                    src="img/examples__img-5.png" alt="Project img"> </a></div>
+                        <div class="swiper-slide"><a href=""><img class="examples-list__img"
+                                    src="img/examples__img-6.png" alt="Project img"> </a></div>
+                        <div class="swiper-slide"><a href=""><img class="examples-list__img"
+                                    src="img/examples__img-7.png" alt="Project img"> </a></div>
+                        <div class="swiper-slide"><a href=""><img class="examples-list__img"
+                                    src="img/examples__img-8.png" alt="Project img"> </a></div>
+                        <div class="swiper-slide"><a href=""><img class="examples-list__img"
+                                    src="img/examples__img-9.png" alt="Project img"> </a></div>
+                    </div>
+                </div>
+
+                <a class="contact-button contact-button_examples" href="">Get Started</a>
+            </div>
+        </section>
+
+        <section class="order">
+            <div class="order__container">
+                <h2 class="order__title">Fill out the form!</h2>
+                <form class="order__form form" method="post" target="_blank" id="order-form"
+                    action="danshin-pavel@mail.ru">
+                    <div class="order__form-top-container">
+                        <div class="order__form-container">
+                            <div class="order__left-form order__left-form_name">
+                                <label class="form__label" for="name">Your name:</label>
+                                <input class="form__input form__input-name" type="text" id="name" name="name">
+                            </div>
+                            <div class="order__right-form order__right-form_email">
+                                <label class="form__label" for="email">Your Email*:</label>
+                                <input class="form__input form__input-email" type="text" id="email" name="email">
+                            </div>
+                            <div class="order__left-form order__left-form-telegram">
+                                <label class="form__label" for="social">Your Telegram name:</label>
+                                <input class="form__input" type="text" id="social" name="email">
+                            </div>
+                            <div class="order__right-form-flex">
+                                <div class="order__right-form">
+                                    <label class="form__label form__label-nft-title" for="image">NFT (jpg):</label>
+                                    <label class="form__label form__label-nft" for="image"><span
+                                            class="form__label-nft_decoration"><img
+                                                src="img/form__label-nft_decoration.svg" alt=""></span> Attach
+                                        File</label>
+                                    <input class="form__input form__input-nft" type="file" accept="image/jpeg"
+                                        id="image" name="email">
+                                </div>
+                                <div class="order__right-form">
+                                    <label class="form__label" for="select">You need:</label>
+                                    <select class="form__select form__select-choice" id="select" form="order-form">
+                                        <option class="form__input form__input-choice" value="website">Website
+                                            development
+                                        </option>
+                                        <option value="design">Only UX/UI Design</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__textarea-block">
+                        <label class="form__label" for="text">Couple of words about your project*:</label>
+                        <textarea class="form__textarea" name="text" id="text" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form__down-container">
+                        <input class="form__down-button" type="submit" value="Send">
+                        <p class="form__down-description">Also you can contact us via <a
+                                class="form__down-link">WhatsApp</a> and
+                            <a class="form__down-link" href="#">Telegram</a>
+                        </p>
+
+                        <div class="modal modal_visual_hidden">
+
+                            <h1 class="modal__title">Thanks for your request!</h1>
+                            <p class="modal__description">We will contact you as soon as possible to discuss your
+                                project!</p>
+                            <button type="button" class="modal__close-button">Ok</button>
+
+                        </div>
+
+                        <img class="form__down-img" src="img/form__down-img.png" alt="">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer__flex-container">
+                <a class="footer__logo" href="#">Hello<span class="logo-blue">!</span>Bandits</a>
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item"> <a class="footer-nav__link">How we work</a></li>
+                    <li class="footer__nav-item"> <a class="footer-nav__link">About Us</a></li>
+                    <li class="footer__nav-item"> <a class="footer-nav__link">Examples</a></li>
+                    <li class="footer__nav-item"> <a class="footer-nav__link">Contact Us</a></li>
+                </ul>
+                <div class="footer__contacts">
+                    <a class="footer__contacts-link" href="#">
+                        <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="whatsapp-footer" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.4337 21C9.45032 20.9949 7.5093 20.4258 5.83727 19.3589L0.914062 21L2.55519 16.0754C1.31879 14.1023 0.773218 11.7742 1.00447 9.45722C1.23571 7.14025 2.23067 4.96589 3.83265 3.27607C5.43463 1.58626 7.55271 0.476885 9.85405 0.122406C12.1554 -0.232073 14.5094 0.188435 16.5456 1.31785C18.5818 2.44727 20.1848 4.22144 21.1026 6.36143C22.0203 8.50141 22.2007 10.8858 21.6154 13.1395C21.03 15.3932 19.7122 17.3884 17.8691 18.8113C16.026 20.2342 13.7622 21.0042 11.4337 21ZM13.72 12.0737C14.4197 12.3 15.1315 12.4874 15.852 12.6348C15.9278 12.6459 16.0005 12.6722 16.0658 12.7122C16.1312 12.7521 16.1879 12.8048 16.2324 12.8671C16.277 12.9295 16.3085 13.0002 16.3251 13.075C16.3416 13.1498 16.3429 13.2271 16.3288 13.3024V13.7063C16.3358 13.8505 16.309 13.9944 16.2506 14.1263C16.1921 14.2583 16.1036 14.3748 15.9922 14.4666C15.6465 14.8175 15.2372 15.0993 14.786 15.297C14.1204 15.3761 13.4455 15.3173 12.8036 15.1243C12.1617 14.9312 11.5665 14.608 11.055 14.1748C10.3955 13.7324 9.78024 13.2275 9.21763 12.6671C8.65769 12.1016 8.15052 11.486 7.70269 10.8282C7.27296 10.3163 6.95296 9.7217 6.76236 9.08114C6.57176 8.44058 6.51474 7.76777 6.59474 7.10426C6.79269 6.6556 7.0734 6.24825 7.42224 5.90359C7.51111 5.7899 7.6268 5.7001 7.75902 5.64231C7.89125 5.58452 8.03591 5.56054 8.17971 5.57254H8.58635C8.73977 5.55134 8.89543 5.59186 9.01902 5.6852C9.1426 5.77854 9.22397 5.91716 9.24554 6.07053C9.45593 6.90088 9.61027 7.5012 9.82066 8.17446C9.90482 8.45498 9.80675 8.52228 9.58233 8.69059C9.44206 8.79859 9.32984 8.87716 9.21763 8.95992C9.15255 8.98824 9.09417 9.02991 9.04624 9.08225C8.99832 9.1346 8.96189 9.19643 8.9394 9.26375C8.91692 9.33107 8.90875 9.40242 8.9156 9.47306C8.92245 9.5437 8.94413 9.61207 8.97912 9.67381C9.33733 10.3632 9.79579 10.9957 10.3396 11.5505C10.8937 12.0954 11.5276 12.5527 12.2193 12.9068C12.2812 12.9412 12.3494 12.9625 12.4199 12.9691C12.4904 12.9757 12.5616 12.9676 12.6288 12.9453C12.696 12.923 12.758 12.8871 12.8106 12.8396C12.8633 12.7922 12.9053 12.7344 12.9344 12.6698C13.0186 12.5562 13.0888 12.4496 13.201 12.3037C13.2185 12.2533 13.246 12.2069 13.2818 12.1673C13.3177 12.1278 13.3611 12.0959 13.4096 12.0735C13.458 12.0511 13.5105 12.0387 13.5638 12.0371C13.6172 12.0354 13.6702 12.0446 13.72 12.0639V12.0737Z"
+                                fill="#353535" />
+                        </svg>
+                    </a>
+                    <a class="footer__contacts-link" href="#">
+                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="telegramm-footer" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M15.3332 14.1876C15.3096 14.4417 15.2105 14.6829 15.0485 14.8802C14.8866 15.0774 14.6693 15.2216 14.4247 15.2941C14.18 15.3667 13.9192 15.3643 13.6759 15.2873C13.4327 15.2102 13.2179 15.0621 13.0596 14.862C11.6673 13.7558 9.49602 12.1618 9.49602 12.1618C9.49602 12.1618 7.92484 14.9297 7.64384 15.2133C7.551 15.2913 7.44295 15.349 7.32654 15.3829C7.21012 15.4168 7.08795 15.426 6.96776 15.4101C6.84758 15.3941 6.73199 15.3532 6.62848 15.2901C6.52497 15.2269 6.43576 15.1429 6.36653 15.0434C6.35219 14.9998 6.33523 14.9571 6.31555 14.9156L7.19681 10.5064L13.4812 4.3332L4.91039 9.22397C4.91039 9.22397 1.04018 8.06672 0.465395 7.84064C0.31712 7.75965 0.194846 7.63832 0.112702 7.49068C0.0305593 7.34304 -0.00798206 7.17516 0.00137496 7.00646C0.010732 6.83777 0.0675921 6.67518 0.16556 6.53753C0.263527 6.39988 0.398571 6.29283 0.554894 6.22873C1.37237 5.81233 15.793 0.304567 16.2784 0.162786C16.7638 0.0210057 18.0411 -0.348138 17.9006 0.894679C17.7601 2.1375 15.4737 13.5042 15.3332 14.1876Z"
+                                fill="#353535" />
+                        </svg>
+                    </a>
+                    <a class="footer__contacts-link" href="#">
+                        <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="twitter-footer" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M10.6302 5.28298C10.6302 5.28298 10.9965 0.109696 14.603 0.0648855C17.5388 0.026256 18.1012 1.35977 18.1012 1.35977C18.9875 1.08905 19.8072 0.635282 20.5071 0.0278215C20.4439 0.891571 20.0979 1.71046 19.5228 2.35795C20.0812 2.35416 20.6214 2.15827 21.0525 1.80321C20.9394 2.22024 20.7375 2.60789 20.4607 2.93965C20.1838 3.27142 19.8387 3.53949 19.4486 3.72545C19.6326 6.95998 18.7653 10.1672 16.9763 12.8683C14.3495 16.6818 9.57182 16.9676 6.95119 17C4.85389 16.876 2.81153 16.2808 0.975977 15.2587C0.975977 15.2587 4.95169 15.3066 6.73173 14.0071C5.32242 13.0434 4.00361 11.9537 2.79154 10.7514C3.27173 10.7914 3.75524 10.7426 4.2178 10.6076C2.94554 9.26174 1.85462 7.75527 0.972865 6.12659C1.46508 6.22456 1.96894 6.25057 2.46863 6.20383C2.46863 6.20383 0.15089 2.43984 1.24797 0C1.24797 0.00618072 5.16494 4.95386 10.6302 5.28298Z"
+                                fill="#353535" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__description">Copyright © 2021. All rights reserved</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
